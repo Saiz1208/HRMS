@@ -24,7 +24,11 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],	// Playwright default report 
-    ['allure-playwright']	// Allure report
+    ['allure-playwright', {
+      resultsDir: process.env.JENKINS_URL
+        ? 'Allure_Jenkins_results'
+        : 'allure-results',
+    }],	// Allure report
   ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
