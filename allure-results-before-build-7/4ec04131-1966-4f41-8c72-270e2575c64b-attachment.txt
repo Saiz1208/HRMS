@@ -1,5 +1,0 @@
-Open Application
-Login 
-New employee added successfully
-Logout
-Close Application

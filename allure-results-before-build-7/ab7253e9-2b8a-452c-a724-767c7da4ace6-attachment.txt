@@ -1,5 +1,0 @@
-Application opened
-Login successful
-Login Completed
-Logout completed
-Application closed

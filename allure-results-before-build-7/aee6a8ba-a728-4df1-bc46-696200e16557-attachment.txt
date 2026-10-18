@@ -1,4 +1,0 @@
-Login 
-Deleted employee successfully
-Logout
-Close Application
