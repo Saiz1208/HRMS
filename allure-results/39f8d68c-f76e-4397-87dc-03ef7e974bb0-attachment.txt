@@ -1,0 +1,10 @@
+Application opened
+Waited for 3 seconds
+Login successful
+Login Completed
+Waited for 3 seconds
+New employee added successfully
+Waited for 3 seconds
+Logout completed
+Waited for 3 seconds
+Application closed
